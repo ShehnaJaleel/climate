@@ -1,9 +1,16 @@
+import React from 'react';
+import {BrowserRouter as Router,Route } from 'react-router-dom';
+import Login from './components/Login';
+import Weather from './components/Weather';
 
-function App() {
+
+const App = ()=> {
   return (
-    <div className="App">
-      
-    </div>
+    <Router>
+      <Route path = "/login" component= {Login}></Route>
+      <Route path = "/weather" component= {Weather}></Route>
+
+    </Router>
   );
 }
 

@@ -1,0 +1,83 @@
+.weatherpage-container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weatherpage-container h2{
+    margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+.weatherpage-container p{
+    font-size: 18px;
+    color: #666;
+}
+
+.loading-text {
+    font-size: 18px;
+    color: #999;
+  }
+
+
+
+  .users-table-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .users-table-container h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .actions-column button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .actions-column button:hover {
+    background-color: #0056b3;
+  }
+  
+  .status-active {
+    color: green;
+  }
+  
+  .status-inactive {
+    color: red;
+  }
